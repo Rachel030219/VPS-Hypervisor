@@ -9,7 +9,7 @@ Go to [Getting started](https://github.com/eternnoir/pyTelegramBotAPI#getting-st
 
 #### 1. Configuration
 
-Copy `config.example.py` to `config.py`, then edit it.
+Copy `config.example.py` to `config.py` , then edit it.
 
 #### 2. RUN
 
@@ -19,8 +19,18 @@ python hypervisor.py
 
 #### 3. That's all
 
+> Notice: this bot works only when sudo is installed.
+
 ### Documents
 
-#### /execute <COMMAND>
+#### /run <COMMAND>
 
 Run an one-line command and get the output.
+
+#### /set_pw <PASSWORD>
+
+Set your password to run command as root user.
+
+#### /su_run <COMMAND>
+
+Run command as root user.
